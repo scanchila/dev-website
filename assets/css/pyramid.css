@@ -1,0 +1,35 @@
+.pyramid {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+  
+  
+  
+  .pyramid__section {
+    flex: 1 1 100%;
+    background-color: gray;
+    margin-bottom: 2px;
+  }
+  
+  
+  .pyramid__section:hover {
+    background-color: yellow;
+  }
+  
+  /* Ignore the styles below: it's just making everything a little prettier. */
+  body {
+    font-family: sans-serif;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  body > * {
+    margin-left: auto;
+    margin-right: auto;
+  }

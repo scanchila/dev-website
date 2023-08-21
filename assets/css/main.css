@@ -1,0 +1,194 @@
+.bg-pink {
+    background-color: #1a1a1a
+}
+
+.resume h1,
+.resume h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize
+}
+
+.resume h4,
+.resume h5,
+.resume li {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4,
+.resume h5,
+.resume h6 {
+    text-transform: capitalize
+}
+
+.resume h2,
+.resume h3,
+.resume h4,
+.resume h5,
+.resume h6,
+.resume li,
+.resume a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: normal
+}
+
+.resume h2,
+.resume h3,
+.resume h4 {
+    color: #1f232c
+}
+
+.resume h6,
+.resume p {
+    color: #676767
+}
+
+.resume h1 {
+    font-size: calc(22px + (70 - 22) * ((100vw - 300px) / (1920 - 300)));
+    color: #efefef;
+    margin-top: -20px;
+    line-height: normal
+}
+
+.resume h2 {
+    font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: -12px;
+    margin-bottom: -4px
+}
+
+.resume h3 {
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: 0
+}
+
+.resume h4 {
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.resume h5 {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1920 - 300)));
+    margin-bottom: -2px;
+    color: #1f232c
+}
+
+.resume h6 {
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: -6px;
+    margin-bottom: -6px
+}
+
+.resume p {
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
+    color: #b1b1b1;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: -6px
+}
+
+.resume.fixed {
+    background-color: #fff;
+    border-bottom: 1px solid #000
+}
+
+.resume a {
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+    color: #efefef
+}
+
+.resume a:hover {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.resume a:focus {
+    outline: none
+}
+
+.resume .center-text>div {
+    margin-top: -30px
+}
+
+.resume.pricing {
+    margin-bottom: 0
+}
+
+.resume.counter .counters .counter-img {
+    opacity: 0.7
+}
+
+.resume.header .header-text {
+    margin-bottom: 35px
+}
+
+.resume.header .header-sub-text {
+    margin-bottom: 30px
+}
+
+.resume.about .color-light {
+    color: #949494
+}
+
+.resume.about .border-container {
+    margin: 15px 0
+}
+
+.resume.about .border-container .borders-bottom {
+    border-top: 2px solid #c7c7c7;
+    width: 48px;
+    margin: 0 auto
+}
+
+.resume .filter-section .filter-container ul.filter>li {
+    border-radius: 25px
+}
+
+.resume .radial-bar {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 94px;
+    height: 94px
+}
+
+.resume .radial-bar.radial-bar-primary {
+    background-image: linear-gradient(432deg, #1f232c 50%, transparent 50%, transparent), linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3)
+}
+
+.resume .radial-bar.radial-90 {
+    background-image: linear-gradient(399deg, #1f232c 50%, transparent 50%, transparent), linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3)
+}
+
+.resume .radial-bar.radial-80 {
+    background-image: linear-gradient(350deg, #1f232c 50%, transparent 50%, transparent), linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3)
+}
+
+.resume .radial-bar.radial-70 {
+    background-image: linear-gradient(310deg, #1f232c 50%, transparent 50%, transparent), linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3)
+}
+
+.resume .radial-bar:after {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    text-align: center;
+    color: #1f232c;
+    content: attr(data-label);
+    background-color: #fff;
+    z-index: 1;
+    width: 88px;
+    height: 88px;
+    margin-left: 3px;
+    margin-top: 3px;
+    line-height: 90px;
+    font-weight: 600
+}
+
+

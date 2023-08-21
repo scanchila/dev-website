@@ -1,0 +1,76 @@
+.loadbar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  
+  .hide {
+    display: none;
+  }
+      
+  .loadbar__section_gray {
+    flex: 1 1 100%;
+    background-color: gray;
+    margin-bottom: 2px;
+    border-radius: 25px;
+   
+  }
+
+  .loadbar__section_green {
+    flex: 1 1 100%;
+    background-color: rgb(31, 197, 87);
+    margin-bottom: 2px;
+    border-radius: 25px;
+   
+  }
+  
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .tooltip-trigger {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+
+  .r-img{
+    width: 75px;
+    height: 75px;
+  }
+
+  .text-dark{
+    color: #000;
+  }
+
+.title-name{
+  font-size: 6vw;
+}
+.grad-text{
+    
+    background: linear-gradient(#ad5959, #5310e1);
+ 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .grad-text-clear{
+    
+    background: linear-gradient(#16ef69, #20cfff);
+ 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+
